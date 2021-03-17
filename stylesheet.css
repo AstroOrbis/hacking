@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Fira Code';
+    src: url('FiraCode-Light.eot');
+    src: url('FiraCode-Light.eot?#iefix') format('embedded-opentype'),
+        url('FiraCode-Light.woff2') format('woff2'),
+        url('FiraCode-Light.woff') format('woff'),
+        url('FiraCode-Light.ttf') format('truetype'),
+        url('FiraCode-Light.svg#FiraCode-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Fira Code";
+  color: #3c9e53;
+}
+h2 {
+  text-align: center;
+  font-family: "Fira Code";
+  color: #3c9e53;
+}
+
+h3 {
+  font-family: "Fira Code";
+}
+
+h4 {
+  font-family: "Fira Code";
+}
+
+h5 {
+  font-family: "Fira Code";
+}
+
+h6 {
+  font-family: "Fira Code";
+}
+
+h7 {
+  font-family: "Fira Code";
+}
+
+h8 {
+  font-family: "Fira Code";
+}
