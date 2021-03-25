@@ -1,53 +1,61 @@
-
-
-<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
-
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="accordion.css" media="screen" />
 
 
 <h1> Hacking </h1>
 
+<h2>A webpage (Don't ask me!)</h2>
 
-<h2>By Leonor and Noah</h2>
+<button class="accordion">What is a hacker?</button>
+<div class="panel">
+  <p> A computer hacker is a computer expert who utilizes their knowledge in technology to achieve a goal or overcome an obstacle within a computerized system, by non-standard means. <br> The term itself, "hacker" has become associated in popular culture with a "security hacker," which is someone who breaks into computer systems and accesses data otherwise unavailable to them. </p>
+</div>
+
+<body>
+
+<button class="accordion">Where does hacking come from? (A history of hacking)</button>
+<div class="panel">
+  <p>The term “hack” didn’t actually originate from computers; it came from MIT’s Tech Model Railroad Club in 1961, when club members hacked their high-tech train sets in order to modify their functions. They changed from toy train sets to computers, though, and used the expensive IBM 704’s at MIT to explore new things they could do and new tasks they could accomplish. <br> The 1970s gave way to a new type of hacking; hacking phones. These hackers were named “phreakers,” like the famous John Draper. Fun fact, Steve Jobs and Steve Wozniak were phreakers. <br> The 1980s introduced personal computers to the general public, which unsurprisingly led to a rise of hackers. The amount of cyber criminals led to the first ever Federal Computer Fraud and Abuse Act. <br> In the 1990s, the number of hackers grew, the malicious hackers being called “crackers”. Lots of “crackers” were arrested, such as the notable Kevin Mitnick, Kevin Poulsen, Robert Morris and Vladimir Levin. <br> The years 2000 introduced newer and more dangerous types of hacking that victimized important government-related businesses, such as Microsoft, Ebay, Yahoo! and Amazon. The Department of Defense and International Space Station actually had its system breached by a 15 year old boy! <br> In the 2010s, lone hackers as well as small groups of hackers are hidden in every corner of the internet. Nowadays, hacking has become way more complex and sophisticated than it ever was. Government entities still desperately try to this day to make sure hackers can’t access their systems. There is also the rise of hacktivists groups, the most notable one being Anonymous.
+</p>
+</div>
+
+<button class="accordion">White hat, black hat, grey hat hackers</button>
+<div class="panel">
+  <p>A white hat hacker is a hacker that attempts to keep information safe from malicious hackers. The owner of the targeted system allows them to hack, therefore they are not illegal. <br> A black hat hacker is a hacker that has malicious intentions; they often steal, exploit or sell data. They exploit system vulnerabilities to their benefit. These hackers’ work is usually illegal. <br> A grey hat hacker hacks for fun, or trolls. They may fix or exploit vulnerabilities, but usually not for financial gain. However, even if their intentions are not always malicious, they can still be illegal (if done without the system owner’s consent).
+</p>
+</div>
+
+<button class="accordion">What, or who, is Anonymous?</button>
+<div class="panel">
+  <p>Anonymous is a leaderless international organization of hackers known for its cyber attacks against several governments, government institutions and agencies, corporations and the Church of Scientology. The whole group started in 2003, on 4chan, where the hackers existed together as a sort of anarchic digital community. The members are known as Anons, and are commonly represented with a Guy Fawkes mask (from the graphic novel V for Vendetta), which they have worn during the Million Mask march (or operation Vendetta), occurring November 5th (Guy Fawkes day). The members set common goals to achieve, the first goal having been to hack the Church of Scientology. They became a form of “hacktivism”, which is basically using hacking to promote a social or political agenda. For example, some Anons pushed their agended by Anonymous hacking the UN’s Website and putting up an image of Taiwan’s independence flag in 2020, or giving a list of KKK member’s names in 2015. </p>
+</div>
+
+<button class="accordion">What is the dark web, and what does it have to do with hackers?</button>
+<div class="panel">
+  <p>The dark web is the Worldwide Web content that can only be found on darknets, which are overlay networks on the internet that require specific software, configuration or authorization to access. It’s a part of the deep web, which is the part of the Web that isn’t indexed by search engines. Since it’s way harder to find information on the dark web, some criminals have used it to display/sell illegal content (terrorism, fraud services, etc). <br> A lot of hackers sell their services (they be individuals or in groups) on the dark web. Some have actually been known to track and extort pedophiles. However, cyber crimes such as distributing information for banks and other financial institutions have been committed. The government and private organizations try to track, monitor and potentially deactivate any hackers or cyber criminals.
+</p>
+</div>
 
 
-<h3>What is a hacker?</h3>
+<div class="footer">
+<p>This page was custom coded in HTML and CSS using multiple different programs including: GitHub, Repl.It, Visual Studio Code, and more. The font used is Fira Code Light, available at github.com/tonsky/FiraCode.</p>
+</div>
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-<h4>A computer hacker is a computer expert who utilizes their knowledge in technology to achieve a goal or overcome an obstacle within a computerized system, by non-standard means. 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 
-<br>
-<br>
-
-The term itself, "hacker" has become associated in popular culture with a "security hacker," which is someone who breaks into computer systems and accesses data otherwise unavailable to them.</h4>
-
-<br>
-<br>
-<br>
-<br>
-
-<h3>Where does hacking come from? (A history of hacking)
-</h3>
-
-<h4>The term “hack” didn’t actually originate from computers; it came from MIT’s Tech Model Railroad Club in 1961, when club members hacked their high-tech train sets in order to modify their functions. They changed from toy train sets to computers, though, and used the expensive IBM 704’s at MIT to explore new things they could do and new tasks they could accomplish.
-
-<br>
-<br>
-
-The 1970s gave way to a new type of hacking; hacking phones. These hackers were named “phreakers,” like the famous John Draper. Fun fact, Steve Jobs and Steve Wozniak were phreakers. 
-The 1980s introduced personal computers to the general public, which unsurprisingly led to a rise of hackers. The amount of cyber criminals led to the first ever Federal Computer Fraud and Abuse Act. 
-
-<br>
-<br>
-
-In the 1990s, the number of hackers grew, the malicious hackers being called “crackers”. Lots of “crackers” were arrested, such as the notable Kevin Mitnick, Kevin Poulsen, Robert Morris and Vladimir Levin. 
-
-<br>
-<br>
-
-The years 2000 introduced newer and more dangerous types of hacking that victimized important government-related businesses, such as Microsoft, Ebay, Yahoo! and Amazon. The Department of Defense and International Space Station actually had its system breached by a 15 year old boy!
-
-<br>
-<br>
-
-In the 2010s, lone hackers as well as small groups of hackers are hidden in every corner of the internet. Nowadays, hacking has become way more complex and sophisticated than it ever was. Government entities still desperately try to this day to make sure hackers can’t access their systems. There is also the rise of hacktivists groups, the most notable one being Anonymous.
-</h4>
+</body>
