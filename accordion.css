@@ -1,4 +1,5 @@
 .accordion {
+  font-family: "Fira Code";
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -12,10 +13,12 @@
 }
 
 .active, .accordion:hover {
+  font-family: "Fira Code";
   background-color: #ccc;
 }
 
 .accordion:after {
+  font-family: "Fira Code";
   content: '\002B';
   color: #777;
   font-weight: bold;
@@ -24,10 +27,12 @@
 }
 
 .active:after {
+  font-family: "Fira Code";
   content: "\2212";
 }
 
 .panel {
+  font-family: "Fira Code";
   padding: 0 18px;
   background-color: white;
   max-height: 0;
