@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Fira Code';
-    src: url('Font/FiraCode-Light.eot');
-    src: url('Font/FiraCode-Light.eot?#iefix') format('embedded-opentype'),
-        url('Font/FiraCode-Light.woff2') format('woff2'),
-        url('Font/FiraCode-Light.woff') format('woff'),
-        url('Font/FiraCode-Light.ttf') format('truetype'),
-        url('Font/FiraCode-Light.svg#FiraCode-Light') format('svg');
+    src: url('FiraCode-Light.eot');
+    src: url('FiraCode-Light.eot?#iefix') format('embedded-opentype'),
+        url('FiraCode-Light.woff2') format('woff2'),
+        url('FiraCode-Light.woff') format('woff'),
+        url('FiraCode-Light.ttf') format('truetype'),
+        url('FiraCode-Light.svg#FiraCode-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
