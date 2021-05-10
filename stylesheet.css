@@ -57,6 +57,16 @@ h8 {
    text-align: center;
 }
 
+.header {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: #eee;
+   color: #ffffff;
+   text-align: center;
+}
+
 .center {
   text-align: center;
 }
