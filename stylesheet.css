@@ -24,6 +24,7 @@ h2 {
 
 h3 {
   font-family: "Fira Code";
+  text-align: center;
 }
 
 h4 {
@@ -54,4 +55,8 @@ h8 {
    background-color: black;
    color: #3c9e53;
    text-align: center;
+}
+
+.center {
+  text-align: center;
 }
