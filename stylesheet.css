@@ -70,3 +70,8 @@ h8 {
 .center {
   text-align: center;
 }
+
+.invisible {
+  color: #ffffff;
+  text-align: center;
+}
