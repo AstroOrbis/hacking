@@ -52,18 +52,8 @@ h8 {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: black;
-   color: #3c9e53;
-   text-align: center;
-}
-
-.header {
-   position: fixed;
-   left: 0;
-   top: 0;
-   width: 100%;
    background-color: #eee;
-   color: #ffffff;
+   color: #3c9e53;
    text-align: center;
 }
 
