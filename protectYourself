@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
 <title> Protect yourself </title>
 <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
@@ -54,7 +55,7 @@
 
 <div class="footer">
   <div class-"center"
-    <p> <a href="index.html"> Return to Home </a> <br> <a href="sources.html"> Our sources! </a> <br> This page was custom coded in HTML and CSS using multiple different programs including: GitHub, Repl.It, and more. The font used is Fira Code Light, available at github.com/tonsky/FiraCode. </p>
+    <p> <a href="index.html"> Return to Home </a> <br> <a href="sources"> Our sources! </a> <br> This page was custom coded in HTML and CSS using multiple different programs including: GitHub, Repl.It, and more. The font used is Fira Code Light, available at github.com/tonsky/FiraCode. </p>
   </div>
 </div>
 
