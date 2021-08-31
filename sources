@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+<html lang="en">
 <meta charset=“UTF-8”>
 <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
 <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
@@ -52,8 +53,6 @@
 <div class="footer">
     <p> <a href="index.html">Return to Home</a> <br> This page was custom coded in HTML and CSS using multiple different programs including: GitHub, Repl.It, and more. The font used is Fira Code Light, available at github.com/tonsky/FiraCode.</p>
 </div>
-
-
 
 <script type="text/javascript" src="accordion.js"></script>
 
